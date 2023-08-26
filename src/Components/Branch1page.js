@@ -3,7 +3,7 @@ import React from 'react'
 const Branchpage = () => {
   return (
     <div>
-       <h1>Branchpage</h1>
+       <h1>Main branch</h1>
     </div>
   )
 }
