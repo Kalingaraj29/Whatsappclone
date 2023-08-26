@@ -1,0 +1,35 @@
+.headerclass .images
+{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid whitesmoke;
+}
+.chatbox
+{
+    width: 100%;
+}
+.body
+{
+    height: 85%;
+    background-color: antiquewhite;
+    width: 100%;
+}
+.chatbox .footer
+{
+   margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.chatbox .footer input{
+    width: 310px;
+    border: none;
+    outline: none;
+   
+}
+    
+   
+
+.chatbox .footer{
+    width: 100%;
+}

@@ -1,0 +1,115 @@
+body{
+    height: 100vh;
+    width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: -99;
+}
+.app{
+    height: 500px;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+.headers
+{
+    width: 40%;
+    border: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+.headerstop
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.headerstop .header_right
+{
+    margin-left: 110px;
+}
+.header_right
+{
+    display: flex;
+}
+.searchicon
+{
+   display: flex;
+  padding: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid whitesmoke;
+}
+.searchicon input{
+    border: none;
+    margin-left: 20px;
+}
+
+.chatlisthead
+{
+    display: flex;
+    align-items: center;
+}
+.chatlist_name p{
+    /* margin-top: -20px; */
+    overflow-wrap: normal;
+}
+.div
+{
+    margin-top: -19px;
+}
+.headsidebars
+{
+    overflow-wrap: normal;
+    width: 40%;
+}
+.chatlist .chatlist_name
+{
+ margin-left: 10px;    
+}
+.searchicon_input input
+{
+outline: none;
+border: none;
+}
+.Login img
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+}
+.Login button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: rgb(28, 28, 255);
+    color: white;
+    border-radius: 10px;
+}
+.body p.correct{
+    padding: 3px;
+    background-color: rgb(116, 250, 116);
+    display: inline;
+    border-radius: 10px;
+}
+.chatbox
+{
+    overflow-y: auto;
+}
+.headerclass
+{
+    top:0;
+    position: sticky;
+}
+.images_title
+{
+    background-color: whitesmoke;
+    width: 100%;
+}
